@@ -83,7 +83,7 @@ class HeurekaItem extends Item implements IItem
 
 	public function addImageAlternate($image)
 	{
-		$this->row['IMGURL_ALTERNATE'][] = $image;
+		$this->row['IMGURL_ALTERNATIVE'][] = $image;
 	}
 
 	public function setEan($ean)
